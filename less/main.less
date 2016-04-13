@@ -1,1 +1,295 @@
 //out: ../css/main.css, sourcemap: true
+body {
+  background-color: #ffb3d7;
+}
+
+#cloud {
+  width: 80px;
+  height: 20px;
+  background: #ffe6f2;
+  border-radius: 25% / 100%;
+  position: absolute;
+  left: -30px;
+  top: 50px;
+  -webkit-animation: drift 80s linear infinite;
+          animation: drift 80s linear infinite;
+  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+}
+#cloud::before {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  background-color: #ffe6f2;
+}
+#cloud::before {
+  width: 40px;
+  height: 40px;
+  bottom: 0px;
+  left: 10px;
+}
+
+#cloud_2 {
+  width: 85px;
+  height: 20px;
+  background: #ffe6f2;
+  border-radius: 25% / 100%;
+  position: absolute;
+  left: 600px;
+  top: 10px;
+  -webkit-animation: drift 80s linear infinite;
+          animation: drift 80s linear infinite;
+  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+}
+#cloud_2::before {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  background-color: #ffe6f2;
+}
+#cloud_2::before {
+  width: 50px;
+  height: 40px;
+  bottom: 0px;
+  left: 20px;
+}
+
+#cloud_3 {
+  width: 85px;
+  height: 20px;
+  background: #ffe6f2;
+  border-radius: 25% / 100%;
+  position: absolute;
+  left: 290px;
+  top: 100px;
+  -webkit-animation: drift 80s linear infinite;
+          animation: drift 80s linear infinite;
+  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+}
+#cloud_3::after, #cloud_3::before {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  background-color: #ffe6f2;
+}
+#cloud_3::before {
+  width: 45px;
+  height: 40px;
+  bottom: 0px;
+  left: 20px;
+}
+#cloud_3::after {
+  width: 30px;
+  height: 0px;
+  bottom: 0px;
+  left: 15px;
+}
+
+#cloud_4 {
+  width: 78px;
+  height: 20px;
+  background: #ffe6f2;
+  border-radius: 25% / 100%;
+  position: absolute;
+  left: -300px;
+  top: 80px;
+  -webkit-animation: drift 80s linear infinite;
+          animation: drift 80s linear infinite;
+  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+}
+#cloud_4::before {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  background-color: #ffe6f2;
+}
+#cloud_4::before {
+  width: 45px;
+  height: 43px;
+  bottom: 0px;
+  left: 20px;
+}
+
+#cloud_4 {
+  width: 78px;
+  height: 20px;
+  background: #ffe6f2;
+  border-radius: 25% / 100%;
+  position: absolute;
+  left: -500px;
+  top: 80px;
+  -webkit-animation: drift 80s linear infinite;
+          animation: drift 80s linear infinite;
+  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+}
+#cloud_4::before {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  background-color: #ffe6f2;
+}
+#cloud_4::before {
+  width: 40px;
+  height: 40px;
+  bottom: 0px;
+  left: 25px;
+}
+
+#glass {
+  width: 300px;
+  height: 500px;
+  background: #e6f2ff;
+  border-radius: 10% / 5%;
+  position: absolute;
+  left: 500px;
+  bottom: 0px;
+}
+
+#glassBottom {
+  width: 300px;
+  height: 200px;
+  background: #e6f2ff;
+  border-radius: 100% / 0%;
+  position: absolute;
+  left: 500px;
+  bottom: 0px;
+}
+
+#lemonade {
+  width: 250px;
+  height: 300px;
+  background: #fff780;
+  border-radius: 10% / 0%;
+  position: absolute;
+  left: 525px;
+  bottom: 30px;
+}
+
+#lemonMiddle {
+  width: 7px;
+  height: 7px;
+  background: #ffe066;
+  position: absolute;
+  border-radius: 100% / 100%;
+  left: 86px;
+  bottom: 46px;
+}
+
+#lemonTilt {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 55px;
+  bottom: 15px;
+}
+#lemonTilt::before, #lemonTilt::after {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+}
+#lemonTilt::before {
+  width: 5px;
+  height: 70px;
+  bottom: 0px;
+  left: 32px;
+  background-color: #fffccc;
+  border-radius: 0% / 0%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#lemonTilt::after {
+  width: 70px;
+  height: 5px;
+  bottom: 32px;
+  left: 0px;
+  background-color: #fffccc;
+  border-radius: 0% / 0%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#insideLemonSlice {
+  width: 70px;
+  height: 70px;
+  background: #ffe066;
+  position: absolute;
+  border-radius: 100% / 100%;
+  left: 55px;
+  bottom: 15px;
+}
+#insideLemonSlice::before, #insideLemonSlice::after {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+}
+#insideLemonSlice::before {
+  width: 5px;
+  height: 70px;
+  bottom: 0px;
+  left: 32px;
+  background-color: #fffccc;
+  border-radius: 0% / 0%;
+}
+#insideLemonSlice::after {
+  width: 70px;
+  height: 5px;
+  bottom: 32px;
+  left: 0px;
+  background-color: #fffccc;
+  border-radius: 0% / 0%;
+}
+
+#lemonSlice {
+  width: 100px;
+  height: 100px;
+  background: #fff34d;
+  position: absolute;
+  border-radius: 100% / 100%;
+  left: 40px;
+  bottom: 0px;
+}
+#lemonSlice::before, #lemonSlice::after {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+}
+#lemonSlice::before {
+  width: 90px;
+  height: 90px;
+  bottom: 7px;
+  left: 7px;
+  background-color: #fff899;
+}
+#lemonSlice::after {
+  width: 85px;
+  height: 85px;
+  bottom: 7px;
+  left: 7px;
+  background-color: #fffccc;
+}
+
+@-webkit-keyframes drift {
+  from {
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+  }
+  to {
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
+  }
+}
+
+@keyframes drift {
+  from {
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+  }
+  to {
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
+  }
+}
