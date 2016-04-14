@@ -11,16 +11,18 @@ body {
   position:absolute;
   border: none;
   color: grey;
-  background-color: white;
+  background-color: transparent;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  bottom: 35px;
-  left: 55px;
-  border-radius: 100% / 60%;
+  padding: 10px;
+  border-radius: 100% / 100%;
+  left: 40px;
+  bottom: 0px;
+  width:100px;
+  height:100px;
 }
-
 #cloud{
   width: 80px;
   height: 20px;
