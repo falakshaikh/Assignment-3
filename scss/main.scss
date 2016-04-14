@@ -2,6 +2,25 @@ body {
   background-color: #ffb3d7;
 }
 
+.lemon{
+  width: 70px;
+  height: auto;
+}
+
+#lemon{
+  position:absolute;
+  border: none;
+  color: grey;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  bottom: 35px;
+  left: 55px;
+  border-radius: 100% / 60%;
+}
+
 #cloud{
   width: 80px;
   height: 20px;
@@ -159,13 +178,13 @@ body {
 }
 
 #lemonMiddle{
-  width:7px;
-  height:7px;
+  width:13px;
+  height:13px;
   background:#ffe066;
   position:absolute;
   border-radius: 100% / 100%;
-  left:86px;
-  bottom:46px;
+  left:83px;
+  bottom:43px;
 }
 
 #lemonTilt{
