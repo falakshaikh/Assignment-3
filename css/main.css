@@ -1,5 +1,96 @@
 body {
-  background-color: #ffb3d7;
+  background-color: #99ddff;
+}
+
+#umbrella{
+  position:absolute;
+  bottom:360px;
+  left:750px;
+  transform: rotate(-25deg);
+  border-style: solid;
+  border-color:transparent transparent white transparent;
+  border-width: 0 150px 60px 150px;
+  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+}
+
+#citrus{
+}
+
+#container{
+  position: fixed;
+  bottom: 0;
+  width: 99%;
+  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+  text-align: center;
+  margin: 0 auto;
+}
+
+#juiceGlass{
+  bottom:0px;
+  margin-left:907px;
+  position: absolute;
+}
+
+#straw{
+  height:450px;
+  width:20px;;
+  position: absolute;
+  bottom: 10px;
+  left:157.5px;
+  transform: rotate(20deg);
+  background-color:rgba(231, 231, 231, 1);
+  border-radius:80px 80px 0 0;
+}
+
+#strawTop{
+  height:100px;
+  width:20px;;
+  bottom:394.5px;
+  left:273.5px;
+  position: absolute;
+  background-color:rgba(231, 231, 231, 1);
+  transform: rotate(80deg);
+  border-radius: 0 0 80px 80px;
+}
+
+#glassCupInside{
+   height:350px;
+   width:220px;
+   transform:rotate(180deg);
+   bottom:0px;
+   position: absolute;
+   left:0px;
+   border-radius: 80px 80px 0 0;
+   moz-border-radius: 80px 80px 0 0;
+   -webkit-border-radius: 80px 80px 0 0;
+   background:rgba(205, 233, 255, 0.3);
+}
+
+#glassCupOutside{
+  height:334px;
+  width:220px;
+  bottom:0px;
+  left:-16px;
+  position: absolute;
+  border:1em solid rgba(205, 240, 255, 0.54);
+  border-top: 0px;
+  border-radius: 0px 0px 80px 80px;
+  moz-border-radius:  0px 0px 80px 80px;
+  -webkit-border-radius: 0px 0px 80px 80px;
+}
+
+#juice{
+  height:230px;
+  width:220px;
+  bottom:16px;
+  left:0px;
+  position: absolute;
+  border:1em;
+  background-color: transparent;
+  border-top: 0px;
+  border-radius: 0px 0px 63px 63px;
 }
 
 #lemonButton{
@@ -19,6 +110,7 @@ body {
 .lemon{
   width:50px;
   height:auto;
+
 }
 
 #limeButton{
@@ -78,37 +170,13 @@ body {
   height:auto;
 }
 
-/*#blueberry{
-  width:75px;
-  height:75px;
-  background:#2a2aa2;
-  bottom:12px;
-  position:absolute;
-  left:370px;
-  border-radius:100% / 100%;
-  &::before,&::after{
-    content:"";
-    position: absolute;
-  }
-  &::before{
-    background:#1f1f7a;
-    width: 35px;
-    height:13px;
-    bottom:40px;
-    border-radius:100% / 100%;
-    transform: rotate(45deg);
-    left:7px;
-  }
-  &::after{
-    background:#1f1f7a;
-    width: 13px;
-    height:35px;
-    bottom:30px;
-    border-radius:100% / 100%;
-    transform: rotate(45deg);
-    left:15px;
-  }
-}*/
+#clouds{
+  -webkit-animation: drift 80s linear infinite;
+          animation: drift 80s linear infinite;
+  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
+}
+
 #cloud {
   width: 80px;
   height: 20px;
@@ -117,10 +185,6 @@ body {
   position: absolute;
   left: -30px;
   top: 50px;
-  -webkit-animation: drift 80s linear infinite;
-          animation: drift 80s linear infinite;
-  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
-          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
 }
 #cloud::before {
   content: "";
@@ -143,10 +207,6 @@ body {
   position: absolute;
   left: 600px;
   top: 10px;
-  -webkit-animation: drift 80s linear infinite;
-          animation: drift 80s linear infinite;
-  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
-          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
 }
 #cloud_2::before {
   content: "";
@@ -169,10 +229,6 @@ body {
   position: absolute;
   left: 290px;
   top: 100px;
-  -webkit-animation: drift 80s linear infinite;
-          animation: drift 80s linear infinite;
-  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
-          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
 }
 #cloud_3::after, #cloud_3::before {
   content: "";
@@ -201,10 +257,6 @@ body {
   position: absolute;
   left: -300px;
   top: 80px;
-  -webkit-animation: drift 80s linear infinite;
-          animation: drift 80s linear infinite;
-  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
-          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
 }
 #cloud_4::before {
   content: "";
@@ -227,10 +279,6 @@ body {
   position: absolute;
   left: -500px;
   top: 80px;
-  -webkit-animation: drift 80s linear infinite;
-          animation: drift 80s linear infinite;
-  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
-          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
 }
 #cloud_4::before {
   content: "";
@@ -245,35 +293,6 @@ body {
   left: 25px;
 }
 
-/*#glass{
-  width:300px;
-  height:500px;
-  background: #e6f2ff;
-  border-radius:10% / 5%;
-  position: absolute;
-  left:500px;
-  bottom:0px;
-}
-
-#glassBottom{
-  width:300px;
-  height:200px;
-  background: #e6f2ff;
-  border-radius:100% / 0%;
-  position: absolute;
-  left:500px;
-  bottom:0px;
-}
-
-#lemonade{
-  width:250px;
-  height:300px;
-  background: #fff780;
-  border-radius:10% / 0%;
-  position: absolute;
-  left:525px;
-  bottom:30px;
-}*/
 #lemonTilt {
   width: 70px;
   height: 75px;

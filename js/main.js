@@ -34,40 +34,49 @@ $(document).ready( function() {
 
 });
 
-$(document).ready(function(){
+    $(document).ready(function(){
   $("#lemonButton").click(function(){
-    var pink="rgb(255, 179, 215)";
-    var color = $("body").css("background-color")
-    if (color == pink){
-       $("body").css("background-color", pink );
+    var lemon="rgba(255, 230, 153, 0.75)";
+    var color = $("#juice").css("background-color")
+    if (color == lemon){
+       $("#juice").css("background-color", lemon );
     }
-
+    else{
+       $("#juice").css("background-color", lemon );
+    }
   });
-    $("#limeButton").click(function(){
-      var lime="#e6ccff";
-      var pink="rgb(255, 179, 215)";
-      var color = $("body").css("background-color")
-      if (color == pink){
-         $("body").css("background-color", lime );
-      }
 
-    });
-    $("#orangeButton").click(function(){
-      var orange="#99ddff";
-      var pink="rgb(255, 179, 215)";
-      var color = $("body").css("background-color")
-      if (color == pink){
-         $("body").css("background-color", orange );
-      }
+  $("#limeButton").click(function(){
+    var lime="rgba(172, 222, 67, 0.73)";
+    var color = $("#juice").css("background-color")
+    if (color == lime){
+       $("#juice").css("background-color", lime );
+    }
+    else{
+       $("#juice").css("background-color", lime );
+    }
+  });
 
-    });
-    $("#pinkLemonButton").click(function(){
-      var PinkLemon="#ffe699";
-      var pink="rgb(255, 179, 215)";
-      var color = $("body").css("background-color")
-      if (color == pink){
-         $("body").css("background-color", PinkLemon );
-      }
+  $("#orangeButton").click(function(){
+    var orange="rgba(251, 139, 58, 0.74)";
+    var color = $("#juice").css("background-color")
+    if (color == orange){
+       $("#juice").css("background-color", orange );
+    }
+    else{
+       $("#juice").css("background-color", orange );
+    }
+  });
 
-    });
+  $("#pinkLemonButton").click(function(){
+    var PinkLemon="rgba(251, 127, 168, 0.83)";
+    var color = $("#juice").css("background-color")
+    if (color == PinkLemon){
+       $("#juice").css("background-color", PinkLemon );
+    }
+    else{
+       $("#juice").css("background-color", PinkLemon );
+    }
+  });
+
 });
