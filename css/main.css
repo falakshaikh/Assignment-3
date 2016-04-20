@@ -2,35 +2,22 @@ body {
   background-color: #99ddff;
 }
 
-#umbrella{
-  position:absolute;
-  bottom:360px;
-  left:750px;
-  transform: rotate(-25deg);
-  border-style: solid;
-  border-color:transparent transparent white transparent;
-  border-width: 0 150px 60px 150px;
-  -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
-          filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
-}
-
 #citrus{
 }
 
 #container{
-  position: fixed;
-  bottom: 0;
-  width: 99%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
           filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.1));
-  text-align: center;
-  margin: 0 auto;
 }
 
 #juiceGlass{
   bottom:0px;
   margin-left:907px;
   position: absolute;
+
 }
 
 #straw{
@@ -42,6 +29,9 @@ body {
   transform: rotate(20deg);
   background-color:rgba(231, 231, 231, 1);
   border-radius:80px 80px 0 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #strawTop{
@@ -53,6 +43,9 @@ body {
   background-color:rgba(231, 231, 231, 1);
   transform: rotate(80deg);
   border-radius: 0 0 80px 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #glassCupInside{
@@ -66,6 +59,9 @@ body {
    moz-border-radius: 80px 80px 0 0;
    -webkit-border-radius: 80px 80px 0 0;
    background:rgba(205, 233, 255, 0.3);
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 #glassCupOutside{
@@ -79,6 +75,9 @@ body {
   border-radius: 0px 0px 80px 80px;
   moz-border-radius:  0px 0px 80px 80px;
   -webkit-border-radius: 0px 0px 80px 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #juice{
@@ -91,6 +90,9 @@ body {
   background-color: transparent;
   border-top: 0px;
   border-radius: 0px 0px 63px 63px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #lemonButton{
